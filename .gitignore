@@ -25,6 +25,9 @@ Thumbs.db
 .ipynb_checkpoints/
 
 # Local files
-*.csv
+# *.csv  # Commented out: we want data/ folder to be tracked
 output/
 results/
+
+# Scratchpad outputs (temporary analysis results)
+scratchpad_outputs/

@@ -1,0 +1,26 @@
+player_id,player_name,team,position,age,nationality
+P001,Adam Nowak,Lech Poznań,Midfielder,26,Poland
+P002,Jan Kowalski,Lech Poznań,Forward,24,Poland
+P003,Piotr Zieliński,Legia Warszawa,Midfielder,28,Poland
+P004,Marcin Wójcik,Legia Warszawa,Defender,30,Poland
+P005,Marek Kamiński,Wisła Kraków,Forward,22,Poland
+P006,Tomasz Bąk,Pogoń Szczecin,Defender,27,Poland
+P007,Łukasz Kaczmarek,Śląsk Wrocław,Midfielder,25,Poland
+P008,Artur Grabowski,Zagłębie Lubin,Forward,29,Poland
+P009,Karol Piątek,Wisła Kraków,Goalkeeper,31,Poland
+P010,Damian Szymański,Pogoń Szczecin,Midfielder,23,Poland
+P011,Robert Lewandowski,Lech Poznań,Forward,36,Poland
+P012,Jakub Nowak,Zagłębie Lubin,Defender,21,Poland
+P013,Kacper Tobiasz,Legia Warszawa,Goalkeeper,21,Poland
+P014,Mikael Ishak,Lech Poznań,Forward,31,Sweden
+P015,Kamil Grosicki,Pogoń Szczecin,Midfielder,36,Poland
+P016,Erik Exposito,Śląsk Wrocław,Forward,28,Spain
+P017,Bartosz Salamon,Lech Poznań,Defender,33,Poland
+P018,Rafał Augustyniak,Legia Warszawa,Defender,30,Poland
+P019,Efthymios Koulouris,Pogoń Szczecin,Forward,29,Greece
+P020,Kacper Chodyna,Zagłębie Lubin,Midfielder,25,Poland
+P021,Sokratis Dioudis,Zagłębie Lubin,Goalkeeper,31,Greece
+P022,Rafał Leszczyński,Śląsk Wrocław,Goalkeeper,32,Poland
+P023,Alan Uryga,Wisła Kraków,Defender,30,Poland
+P024,Angel Rodado,Wisła Kraków,Forward,27,Spain
+P025,Linus Wahlqvist,Pogoń Szczecin,Defender,27,Sweden
