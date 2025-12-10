@@ -72,3 +72,55 @@ powershell -ExecutionPolicy Bypass -File .\analize\run.ps1
 ```
 
 Jeśli chcesz, mogę też dodać wersję dla `cmd.exe` lub rozszerzyć README o FAQ dotyczące ExecutionPolicy.
+
+---
+
+**Demo & Presentation**
+
+Jeśli chcesz pokazać demo na spotkaniu, uruchom Streamlit i otwórz aplikację w przeglądarce:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+streamlit run app.py
+```
+
+Jeśli nie chcesz aktywować venv, możesz uruchomić bezpośrednio:
+
+```powershell
+.\.venv\Scripts\streamlit.exe run app.py
+```
+
+Poniżej krótkie podglądy (pierwsze 5 wierszy) plików CSV, żebyś mógł szybko sprawdzić strukturę danych bez otwierania plików.
+
+**`data/matches.csv`**
+
+```
+match_id,date,home_team,away_team,home_score,away_score,league,season,stadium
+M001,2025-08-10,Lech Poznań,Legia Warszawa,2,1,Ekstraklasa,2025/2026,Stadion Poznań
+M002,2025-08-17,Wisła Kraków,Pogoń Szczecin,1,3,Ekstraklasa,2025/2026,Stadion Wisły
+M003,2025-08-24,Śląsk Wrocław,Zagłębie Lubin,0,0,Ekstraklasa,2025/2026,Stadion Wrocław
+M004,2025-09-01,Lech Poznań,Wisła Kraków,3,0,Ekstraklasa,2025/2026,Stadion Poznań
+M005,2025-09-07,Legia Warszawa,Śląsk Wrocław,1,2,Ekstraklasa,2025/2026,Stadion Wojska Polskiego
+```
+
+**`data/players.csv`**
+
+```
+player_id,player_name,team,position,age,nationality
+P001,Adam Nowak,Lech Poznań,Midfielder,26,Poland
+P002,Jan Kowalski,Lech Poznań,Forward,24,Poland
+P003,Piotr Zieliński,Legia Warszawa,Midfielder,28,Poland
+P004,Marcin Wójcik,Legia Warszawa,Defender,30,Poland
+P005,Marek Kamiński,Wisła Kraków,Forward,22,Poland
+```
+
+**`data/player_performances.csv`**
+
+```
+match_id,player_id,minutes_played,passes_completed,passes_missed,pass_accuracy,shots,shots_on_target,shot_accuracy,goals,assists,yellow_cards,red_cards,tackles,interceptions
+M001,P001,90,58,7,89.23,1,1,100.00,0,1,0,0,3,2
+M001,P002,75,24,6,80.00,4,2,50.00,2,0,1,0,1,0
+M001,P003,90,61,9,87.14,2,1,50.00,0,0,1,0,4,3
+M002,P005,88,18,3,85.71,3,2,66.67,1,0,0,0,0,1
+M002,P006,90,40,5,88.89,0,0,0.00,0,0,1,0,5,2
+```
